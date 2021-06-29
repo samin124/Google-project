@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/*----------header starts---------*/
+.header {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+.gmail {
+  margin-right: 15px;
+  height: 22px;
+  margin-top: 18px;
+}
+.gmail a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+}
+.gmail a:hover {
+  text-decoration: underline;
+}
+.images {
+  margin-right: 28px;
+  height: 22px;
+  margin-top: 18px;
+}
+.images a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+}
+.images a:hover {
+  text-decoration: underline;
+}
+.google-bars {
+  margin-right: 20px;
+  height: 22px;
+  margin-top: 18px;
+}
+.google-bars .g-bars {
+  height: 20px;
+  color: rgb(109, 102, 102);
+}
+.header .sign-in {
+  margin-top: 10px;
+  padding: 12px;
+  margin-right: 18px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  border-radius: 4px;
+  background-color: #1a73e8;
+}
+.header .sign-in .button {
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: #1a73e8;
+}
+.header .sign-in:hover {
+  opacity: 0.8;
+}
+/*----------header close-------------*/
+/*--------google-logo starts----------*/
+.google-logo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.g-logo {
+  background-image: url(evolving_google_identity_2x1.jpg);
+  background-position: center;
+  background-size: 520px;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 350px;
+}
+/*--------google logo close-------*/
+/*---------search box starts--------*/
+.search {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.search .search-1 {
+  width: 570px;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 22px;
+  padding-left: 50px;
+  padding-right: 40px;
+  font-size: 13px;
+  position: relative;
+}
+.image-1 {
+  position: absolute;
+  margin-right: 520px;
+}
+.im-1 {
+  height: 15px;
+  width: 15px;
+}
+.image-2 {
+  position: absolute;
+  margin-left: 520px;
+}
+.image-2 .im-2 {
+  height: 20px;
+  width: 17px;
+}
+/*-------search box close-------*/
+/*------center box-div starts----------*/
+.box-div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-div div {
+  margin: 8px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.box-div div a {
+  text-decoration: none;
+  color: rgb(80, 77, 77);
+}
+
+.box-div .google-search {
+  height: 30px;
+  width: 130px;
+  padding: 3px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.box-div .google-search:hover {
+  box-shadow: 1px 1px 6px rgb(202, 201, 201);
+  border-radius: 4px;
+  border: 1px solid rgb(202, 201, 201);
+}
+.box-div .lucky-box {
+  height: 30px;
+  width: 150px;
+  padding: 3px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.box-div .lucky-box:hover {
+  box-shadow: 1px 1px 1px rgb(202, 201, 201);
+  border-radius: 4px;
+  border: 1px solid rgb(202, 201, 201);
+}
+/*--------center box div close-------*/
+/*---------offer-box starts---------*/
+.offer-box {
+  margin-top: 30px;
+}
+.offer-box p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  word-spacing: 3px;
+}
+.offer-box p a {
+  text-decoration: none;
+  color: blue;
+}
+.offer-box p a:hover {
+  text-decoration: underline;
+}
+/*----------offer box close-----------*/
+/*-------footer starts---------*/
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  background-color:#e7eaee;
+}
+.bangladesh {
+  width: 85px;
+  padding: 5px;
+  margin-top:8px;
+  margin-left:23px;
+}
+.bangladesh p {
+  font-size: 15px;
+  color: rgb(43, 42, 42);
+}
+.hr{
+  width:100%;
+  box-sizing:border-box;
+  margin-top:10px;
+  border:1px solid rgb(179, 179, 179) ;
+}
+.last-div {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.last-div .div-1 {
+  display: flex;
+  margin-bottom: 2px;
+  margin-left: 20px;
+}
+.last-div .div-1 p {
+  margin: 12px;
+}
+.last-div .div-1 p a {
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+  font-size: 15px;
+}
+.last-div .div-1 p a:hover{
+  text-decoration:underline;
+}
+
+.last-div .div-2 {
+  display: flex;
+  height: 40px;
+  margin-right: 20px;
+}
+.last-div .div-2 p {
+  margin: 12px;
+}
+.last-div .div-2 p a {
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+  font-size: 15px;
+}
+.last-div .div-2 p a:hover {
+  text-decoration: underline;
+}
+
+
+/*  mobile view   */
+@media (max-width: 768px) {
+  /*search box starts*/
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search .search-1 {
+    width: 400px;
+    position: relative;
+    padding-left: 43px;
+    font-size: 15px;
+    padding: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 7px;
+  }
+  .image-1 {
+    position: absolute;
+    margin-right: 350px;
+    margin-bottom: 3px;
+  }
+  .image-2 {
+    margin-left: 345px;
+    margin-bottom: 3px;
+  }
+  /*-----search box close---*/
+  /*----footer starts----*/
+  .footer {
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    width:100%;
+  }
+  .last-div {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-top: 13px;
+    box-sizing:border-box;
+    width:100%;
+  }
+  .last-div .div-1 {
+    display: block;
+  }
+  .last-div .div-2 {
+    display: block;
+  }
+  /*---footer close---*/
+  /*------google logo starts----*/
+  .g-logo {
+    background-size: 450px;
+  }
+  /*----google logo close----*/
+}
+
+
+/*--------ALHAMDULILLAH--------*/
